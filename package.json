@@ -1,0 +1,19 @@
+{
+  "name": "py-ext-pack",
+  "displayName": "Python Extension Pack",
+  "description": "Custom Python Extension Pack",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "magicstack.MagicPython", 
+    "ms-pyright.pyright", 
+    "ms-python.isort", 
+    "ms-python.python", 
+    "ms-python.vscode-pylance"
+  ]
+}
